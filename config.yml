@@ -1,0 +1,22 @@
+version: 1.0
+
+# Logging settings.
+logging:
+
+  # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
+  level: info
+
+  # Logger-specific levels.
+  loggers:
+
+    # Sets the level for 'com.example.app' to DEBUG.
+    com.andcoe: DEBUG
+
+  appenders:
+    - type: console
+
+mongoConfig:
+  dbname: "template"
+  host: "localhost"
+  port: 27017
+
